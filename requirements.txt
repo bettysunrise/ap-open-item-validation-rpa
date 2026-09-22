@@ -1,0 +1,9 @@
+pywin32
+openpyxl
+pypdf
+pytesseract
+PyMuPDF
+Pillow
+xlrd
+olefile
+striprtf

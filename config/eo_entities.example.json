@@ -1,0 +1,14 @@
+{
+  "_comment": "Approved group entities for Consignee validation (validation/consignee.py). Add new legal entities here as they're onboarded - never hardcode them in code. Names are normalized (case/punctuation/legal-suffix insensitive) before comparison.",
+  "entities": [
+    "ARIA CO., LTD.",
+    "ARIA YANGON CO., LTD.",
+    "ARIA YANGON COMPANY LIMITED",
+    "ARIA BAGO CO., LTD.",
+    "ARY",
+    "ARB",
+    "ARV"
+  ],
+  "_abbreviations_note": "ARY/ARB/ARV are this business's own internal abbreviations for its subsidiaries - ARY = Aria Yangon, ARB = Aria Bago, ARV = Aria Vina. Real documents (e.g. OCR'd Delivery Receipts) commonly show only the abbreviation, not the full legal name - this is why the consignee check also accepts a first-token match, not just the full name.",
+  "_note": "This is a sanitized example with fictional company names, illustrating the shape of the real config. Copy to eo_entities.json and fill in your own group's real entity names - eo_entities.json itself is gitignored so real values never get committed."
+}

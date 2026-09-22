@@ -1,0 +1,11 @@
+{
+  "company_code": "1000",
+  "transaction_code": "ZDEMO_AP_OPEN",
+  "detail_program": "ZDEMO_AP_PROG",
+  "open_items_only": true,
+  "lookback_years": 2,
+  "read_only": true,
+  "sap_date_format": "%Y.%m.%d",
+  "_sap_date_format_note": "Discovered live from this user's SAP GUI date format setting (YYYY.MM.DD). If the custom AP-open-item transaction rejects dates with 'Enter date in the format ____.__.__' or similar, adjust this value to match the format shown in that error message.",
+  "_note": "This is a sanitized example. Copy to settings.json and fill in the real company code / transaction code / detail program for your own SAP system - settings.json itself is gitignored so real values never get committed."
+}

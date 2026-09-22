@@ -1,0 +1,4 @@
+{
+  "_comment": "Groups of vendor/shipper names known to be the same legal entity despite very different surface text (e.g. a trading name vs a legal name). Each inner list is one equivalence group; validation/vendor.py normalizes every name before comparing. Add groups here as they're confirmed - never hardcode them in code.",
+  "groups": []
+}

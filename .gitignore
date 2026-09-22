@@ -1,0 +1,35 @@
+# Real business data - never commit. This project reads live company data
+# and downloads real trade documents; none of it belongs in version control.
+attachments/
+output/
+logs/
+sap_discovery/
+tests/fixtures/
+debug/
+
+# Real config - contains actual company/vendor names and company code.
+# Sanitized *.example.json templates are committed instead; copy them to
+# the real filenames locally and fill in your own values.
+config/settings.json
+config/eo_entities.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code session artifacts
+.claude/
+
+# Local desktop-launcher convenience files - hardcode this machine's
+# absolute paths (username, install location), not portfolio-relevant.
+run_validation.bat
+app_icon.ico
